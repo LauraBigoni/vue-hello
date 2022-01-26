@@ -1,4 +1,4 @@
-console.log('Vue ok' , Vue);
+console.log('Vue ok', Vue);
 Vue.config.devtools = true;
 
 /* Descrizione:
@@ -10,7 +10,8 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data. */
 const app = new Vue({
     el: '#root',
     data: {
-
+        message: 'Vue Hello!',
+        image: 'vuehello.png',
     },
     methods: {
 
