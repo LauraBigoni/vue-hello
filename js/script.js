@@ -12,6 +12,8 @@ const app = new Vue({
     data: {
         title: 'Vue Hello!',
         image: 'vuehello.png',
+        // # oppure
+        // image: 'img/vuehello.png',
     },
     methods: {
 
